@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  _NAME_:
+    build: .
+    volumes:
+      - ./output:/app/output
